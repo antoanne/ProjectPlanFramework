@@ -1,8 +1,8 @@
-CPM<-c(-10,-50,0,0,0,0,0,0,30,0,30,0,0,220,0,0,130,0,160)
-drawcfs(CPM)
+#CPM<-c(-10,-50,0,0,0,0,0,0,30,0,30,0,0,220,0,0,130,0,160)
+#drawcfs(CPM)
 
-print(nPv(CPM, 0.1425))
-print(sum(nPv(CPM, 0.1425)))
+#print(nPv(CPM, 0.1425))
+#print(sum(nPv(CPM, 0.1425)))
 
 
 # exemplo 2
@@ -15,23 +15,23 @@ suc<-list(c(2,3),
           7,
           c(0))
 
-nodes <- cpm(d, suc, nodes)
+nodes <- cpm(d, suc)
 
 # exemplo 1
-d2<-c(1,5,2,2,2,2,3,2,3,3,2)
-suc2<-list(c(2,3),
-           c(4,5),
-           c(6,7),
-           8,
-           10,
-           8,
-           11,
-           9,
-           10,
-           11,
-           c(0))
-
-nodes2 <- cpm(d2, suc2, nodes2)
+# d2<-c(1,5,2,2,2,2,3,2,3,3,2)
+# suc2<-list(c(2,3),
+#            c(4,5),
+#            c(6,7),
+#            8,
+#            10,
+#            8,
+#            11,
+#            9,
+#            10,
+#            11,
+#            c(0))
+# 
+# nodes2 <- cpm(d2, suc2)
 
 
 
